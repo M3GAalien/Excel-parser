@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+    <script src="parser.js"></script>
+    <head>
+        <title>Excel Parse</title>
+    </head>
+
+    <body>
+        <h1>Test Heading</h1>
+        <form name="excelData" onsubmit="validateForm()">
+            <label for="data">Excel Sheet Data:</label><br>
+            <textarea name="data" id="data" placeholder="123456  1234 test address, City, St 12345, PLA    01/01/9999, 00:00:00"></textarea><br><br>
+            <input type="submit" value="Submit">
+        </form>
+
+        <p id="result"> </p>
+    </body>
+</html>
